@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神樹物語</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+    <script src="/javascript.fdd706da.js" defer=""></script>
+    <script src="/phaser.abfad649.js"></script>
+    <!-- フォント -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+<script src="/style.e308ff8e.js"></script></head>
+
+<body>
+    <div id="wholePage">
+        <!-- 6ページ目奥付 -->
+        <div id="page6Imprint" class="pageAll" style="visibility:visible">
+            <div class="headTitle">
+            </div>
+            <div id="imprintText">
+                <h3>神樹物語</h3>
+                <p>Sacredtreestory</p>
+                <p>著者　Matsumoto</p>
+                <p>Emaile .com</p>
+            </div>
+        </div>
+        <!-- 5ページ目プレイする -->
+        <div id="page5PlayGame" class="pageAll" style="visibility:visible">
+            <img id="playGameImageBackground" src="/background.b1d705a9.png" alt="背景">
+            <div class="headTitle">
+                <div class="headingDecorationLeft"></div>
+                <h2>物語を進める【ゲームスタート】</h2>
+                <div class="headingDecorationRight"></div>
+            </div>
+            <div id="playGameTitle" style="visibility:visible">
+                <p id="playGame1" style="display:none">１話『魔女現る』・序</p>
+                <p id="playGame2" style="display:none">１話『魔女現る』・本</p>
+                <p id="playGame3" style="display:none">１話『魔女現る』・結</p>
+                <p id="playGame4" style="display:none">２話『二対のゴーレム』・序</p>
+                <p id="playGame5" style="display:none">２話『二対のゴーレム』・本</p>
+                <p id="playGame6" style="display:none">２話『二対のゴーレム』・結</p>
+                <p id="playGame7" style="display:none">３話『激突！！』・序</p>
+                <p id="playGame8" style="display:none">３話『激突！！』・本</p>
+                <p id="playGame9" style="display:none">３話『激突！！』・結</p>
+            </div>
+            <p id="gameData">ゲームデータを削除します</p>
+            <div id="playGameText" style="display:none">
+                <div id="playGameImage">
+                    <img id="playGameImage1" style="display:none" src="/gamestartimage1.1584359a.png" alt="画像１">
+                    <img id="playGameImage2" style="display:none" src="/gamestartimage2.7210b68a.png" alt="画像２">
+                    <img id="playGameImage3" style="display:none" src="/gamestartimage3.184484e5.png" alt="画像３">
+                </div>
+                <div id="playGame1Introduction">
+                    <p class="playGametext1">人が入らない森のさらに奥深く、<br>その樹は見つかった<br>その樹は黄金に輝いていた<br>もうそろそろ実をつけそうだ </p>
+                    <p class="playGametext2">だが、見つけたのは私だけでは<br>なかったようだ。<br>その時、大地から這い出るように<br>魔女が現れた</p>
+                    <p class="playGametext3">魔女は一体のゴーレムと複数体の<br>岩蜘蛛を召喚すると、大地<br>に溶けていった</p>
+                </div>
+                <div id="playGame1Conclusion">
+                    <p class="playGametext1">私達は苦労の末、ゴーレムを倒す<br>ことが出来た。</p>
+                    <p class="playGametext2">その時、大樹から溢れる光が<br>私を包んだ。<br>まるで、私に感謝するように。<br>その光は私に力を与えた。</p>
+                    <p class="playGametext3">だが、油断は出来ない。<br>肝心の魔女はまだどこかに潜んでいるのだから……</p>
+                </div>
+                <div id="playGame2Introduction">
+                    <p class="playGametext1">やはり、再び、魔女は現れた。<br>魔女は一瞬、驚いた表情をした後、<br>静かに、詠唱を始めた</p>
+                    <p class="playGametext2">詠唱を終えると再び地面に溶けていった<br>その時、魔女は微笑んでいたように<br>思えた。<br>これで終わりだといわんばかりに</p>
+                    <p class="playGametext3">二対のゴーレムが私の前に現れた。</p>
+                </div>
+                <div id="playGame2Conclusion">
+                    <p class="playGametext1">２対のゴーレムは強大だった。<br>だが、倒すことに成功した。<br>すると、黄金の樹がガサガサと<br>実を振るわせた。</p>
+                    <p class="playGametext2">樹を注意深く見てみると、一際、光放つ枝を見つけた。<br>その枝には小さな、小さな、実が付いていた</p>
+                    <p class="playGametext3">その実はまるで小さな太陽の<br>ように光り輝いていた。</p>
+                </div>
+                <div id="playGame3Introduction">
+                    <p class="playGametext1">黄金の実が成ったのを確認したのは<br>魔女も同じであった。<br>魔女は詠唱をした後も、消える<br>事、なく、私達と相対した。</p>
+                    <p class="playGametext2">魔女は本気になったようだ。</p>
+                    <p class="playGametext3">私達との最終決戦が始まった。</p>
+                </div>
+                <div id="playGame3Conclusion">
+                    <p class="playGametext1">私は魔女を倒すことが出来た。<br>あの、強大な力を持った魔女を。<br>すると、再び樹がざわざわと葉や枝を<br>振るわせた。</p>
+                    <p class="playGametext2">私が手を差し出すと、黄金の樹は<br>差し出すように実を手のひらに<br>落とした。</p>
+                    <p class="playGametext3">黄金の樹は実が落ちると、<br>役目を終えたように光が<br>消えていき、やがて、周囲の樹<br>と同じ緑色の樹になった。</p>
+                </div>
+            </div>
+            <div id="popWindowGamestart" class="popWindow" style="display:none">
+                <div id="firstPlay5Gamestart">
+                    <p id="firstPlayText5Gamestart1" class="firstPlayText" style="display:none">
+                        ゲームをはじめます<br>
+                        勝利条件:ゴーレムを１体倒す<br>
+                        敗北条件:神樹のHPが０になる<br>
+                        召喚できる精霊は２体です。<br>
+                        ポップ画面を消すとゲームが始まります。
+                    </p>
+                    <p id="firstPlayText5Gamestart2" class="firstPlayText" style="display:none">
+                        ゲームをはじめます<br>
+                        勝利条件:ゴーレムを２体倒す<br>
+                        敗北条件:神樹のHPが０になる<br>
+                        召喚できる精霊は３体です。<br>
+                        ポップ画面を消すとゲームが始まります。
+                    </p>
+                    <p id="firstPlayText5Gamestart3" class="firstPlayText" style="display:none">
+                        ゲームをはじめます<br>
+                        勝利条件:魔女を倒す<br>
+                        敗北条件:神樹のHPが０になる<br>
+                        召喚できる精霊は４体です。<br>
+                        ポップ画面を消すとゲームが始まります。
+                    </p>
+                    <p id="firstPlayClickButton5Gamestart" class="firstPlayTextClickButton">この文字をクリック（タップ）するとポップ画面が消えます
+                    </p>
+                </div>
+            </div>
+            <div id="popWindow5PlayGame" class="popWindow" style="display:none">
+                <div id="firstPlay5PlayGame">
+                    <p id="firstPlayText5PlayGame" class="firstPlayText">
+                        文字をクリックして物語を進めてください。<br>
+                        『序・結』のタイトルは文章に進みます。<br>
+                        『本』のタイトルはゲームに進みます<br>
+                        ポップ画面を消した後、右下をクリック（タップ）するとページがめくれます。</p>
+                    <p id="firstPlayClickButton5PlayGame" class="firstPlayTextClickButton">この文字をクリック（タップ）するとポップ画面が消えます
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 4ページ目遊び方 -->
+        <div id="page4HowToPlay" class="pageAll" style="visibility:visible">
+            <div class="headTitle">
+                <div class="headingDecorationLeft"></div>
+                <h2>物語の進め方（遊び方)</h2>
+                <div class="headingDecorationRight"></div>
+            </div>
+            <img id="howToPlayImage" src="/howtoplayimage1.efb9ef4f.png" alt="説明画像">
+            <div id="howToPlayTextBlock">
+                <p id="howToPlayText1" class="howToPlayText">メルについて</p>
+                <p id="howToPlayText2" class="howToPlayText">精霊について</p>
+                <p id="howToPlayText3" class="howToPlayText">敵について</p>
+            </div>
+            <div id="popWindow4HowToPlay" class="popWindow" style="display:none">
+                <div id="firstPlay4HowToPlay">
+                    <p id="firstPlayText4HowToPlay" class="firstPlayText">右下をクリック（タップ）するとページがめくれます。
+                        テキストをクリックして説明を読んでください。<br>
+                    </p>
+                    <p id="firstPlayClickButton4HowToPlay" class="firstPlayTextClickButton">この文字をクリック（タップ）するとポップ画面が消えます
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 3ページ目登場人物 -->
+        <div id="page3CharacterIntroduction" class="pageAll" style="visibility:visible">
+            <div class="headTitle">
+                <div class="headingDecorationLeft"></div>
+                <h2>登場人物</h2>
+                <div class="headingDecorationRight"></div>
+            </div>
+            <div id="CharacterIntroduction">
+                <img id="CharacterIntroductionMel" src="/melline.4c3938ce.png" alt="メル">
+                <img id="CharacterIntroductionKnight" src="/knightline.dfb8269a.png" alt="ナイト">
+                <img id="CharacterIntroductionDame" src="/dameline.8df16458.png" alt="デイム">
+                <img id="CharacterIntroductionGolem" src="/golemline.c058fbca.png" alt="ゴーレム">
+                <img id="CharacterIntroductionWitch" src="/witchline.320a1cfa.png" alt="ウィッチ">
+                <img id="CharacterIntroductionRockspider" src="/rockspiderline.21572294.png" alt="石クモ">
+            </div>
+            <img id="CharacterIntroductionTextBox" src="/textbox.dd795992.png" alt="テキストボックス" style="display:none">
+            <div id="CharacterIntroductionText" style="display:none">
+                <div id="IntroductionTextmel" style="display:none">
+                    <h3>黄金の実保護委員会</h3>
+                    <p>≪メル≫<br>
+                        黄金の実保護委員会とは黄金の実を回収し厳正な審査のもと、扱い方を決める委員会である。<br>
+                        &lt;スキル１&gt;<br>
+                        一定時間、聖域をはる。<br>
+                        &lt;スキル２&gt;<br>
+                        精霊（ナイト）を召喚する。<br>
+                        &lt;スキル３&gt;<br>
+                        精霊（デイム）を召喚する。</p>
+                </div>
+                <div id="IntroductionTextknight" style="display:none">
+                    <h3>精霊</h3>
+                    <p>≪ナイト≫<br>
+                        メルに召喚される精霊<br>メルとともに魔女と戦う騎士。<br>
+                        &lt;攻撃方法&gt;<br>
+                        剣で近づいた敵を攻撃する。<br>
+                        &lt;スキル１&gt;<br>
+                        一定時間、移動が早くなる。<br>
+                </p></div>
+                <div id="IntroductionTextdame" style="display:none">
+                    <h3>精霊</h3>
+                    <p>≪デイム≫<br>
+                        メルに召喚される精霊<br>メルとともに魔女と戦う騎士。<br>
+                        &lt;攻撃方法&gt;<br>
+                        弓で範囲内の敵を攻撃する<br>
+                        &lt;スキル１&gt;<br>
+                        一定時間、弓を連射する。<br>
+                </p></div>
+                <div id="IntroductionTextwitch" style="display:none">
+                    <h3>魔女</h3>
+                    <p>≪エル・ディ・フランチェス≫<br>
+                        黄金の実を欲する魔女<br>
+                        黄金の実を魔術に使い、魔人を召喚、使役しようとする。<br>
+                        召喚魔法を好んで使用する<br>
+                        &lt;スキル１&gt;<br>
+                        ロックスパイダーを召喚する。<br>
+                        &lt;スキル２&gt;<br>
+                        ゴーレムを召喚する。</p>
+                </div>
+                <div id="IntroductionTextgolem" style="display:none">
+                    <h3>上位魔物</h3>
+                    <p>≪ゴーレム≫<br>
+                        エルに召喚される魔物<br> 耐久性、攻撃力、防御力すべてにおいて強大な魔物。<br>エルとともに神樹の実を奪いにくる。<br>
+                        上位の魔物で召喚するまでに時間がかかる。<br>
+                </p></div>
+                <div id="IntroductionTextrockspider" style="display:none">
+                    <h3>下位魔物</h3>
+                    <p>≪岩蜘蛛≫<br>
+                        エルに召喚される魔物<br>エルとともに神樹の実を奪いにくる。<br>
+                        下位の魔物の為、強くはないが、大量に召喚する事が可能である。<br>
+                </p></div>
+            </div>
+            <div id="popWindow3CharacterIntroduction" class="popWindow" style="display:none">
+                <div id="firstPlay3CharacterIntroduction">
+                    <p id="firstPlayText3CharacterIntroduction" class="firstPlayText">
+                        パソコンでこのページを開いている場合はキャラクターの上にマウスを乗せると
+                        説明テキストが見れます。<br>
+                        タブレットであれば、キャラクターをクリック（タップ）すると説明テキストが見れます。<br>
+                        ポップ画面を消した後、右下をクリック（タップ）するとページがめくれます。</p>
+                    <p id="firstPlayClickButton3CharacterIntroduction" class="firstPlayTextClickButton">
+                        この文字をクリック（タップ）するとポップ画面が消えます</p>
+                </div>
+            </div>
+        </div>
+        <!-- ここにページを入れて表示 -->
+        <!-- ２ページ目序章 -->
+        <div id="page2Introduction" class="pageAll" style="visibility:visible">
+            <div class="headTitle">
+                <div class="headingDecorationLeft"></div>
+                <h2>序章</h2>
+                <div class="headingDecorationRight"></div>
+            </div>
+            <img id="page2IntroductionImgTree" class="page2IntroductionElement" src="/introduction1.ba7a7c6b.png" alt="序章の樹の画像です" style="display:none">
+            <img id="page2IntroductionImgFruit" class="page2IntroductionElement" src="/introduction2.af4d521b.png" alt="序章の実の画像です" style="display:none">
+            <img id="page2IntroductionImgMell" class="page2IntroductionElement" src="/introduction3.caf9f645.png" alt="序章のメルの画像です" style="display:none">
+            <img id="page2IntroductionImgWitch" class="page2IntroductionElement" src="/introduction4.102410fa.png" alt="序章のエルの画像です" style="display:none">
+            <p id="introductionText1" class="page2IntroductionElement" style="display:none">
+                やっと見つけた。黄金の木<br>それは、何年か一度、この広い大地に数本しか生えないと <br> 言われる黄金の木<br>それは、実がなる僅かな時間のみ光輝く黄金の木</p>
+            <p id="introductionText2" class="page2IntroductionElement" style="display:none">
+                それは<br>一口であらゆる<br>奇跡、幸福を実現させる<br>といわれる実</p>
+            <p id="introductionText3" class="page2IntroductionElement" style="display:none">それは<br>一口で全知全能の力を得る<br>といわれる実
+            </p>
+            <p id="introductionText4" class="page2IntroductionElement" style="display:none">それを<br>収穫し、管理する者</p>
+            <p id="introductionText5" class="page2IntroductionElement" style="display:none">それを<br>収穫し、全てを得ようとする者</p>
+            <img id="page2IntroductionImgTitle" class="page2IntroductionElement" src="/titleimage.9c21e68b.png" alt="本編画像です" style="display:none">
+            <div id="popWindow2Introduction" class="popWindow" style="display:none">
+                <div id="firstPlay2Introduction">
+                    <p id="firstPlayText2Introduction" class="firstPlayText">
+                        このポップ画面を閉じると序章の文章がはじまります。<br>序章が終わった後に右下をクリック（タップ）するとページがめくれます。</p>
+                    <p id="firstPlayClickButton2Introduction" class="firstPlayTextClickButton">
+                        この文字をクリック（タップ）するとポップ画面が消えます</p>
+                </div>
+            </div>
+        </div>
+        <!-- 1ページ目インデックス -->
+        <div id="page1Index" class="pageAll" style="visibility:visible">
+            <div class="headTitle">
+                <div class="headingDecorationLeft"></div>
+                <h2>目次</h2>
+                <div class="headingDecorationRight"></div>
+            </div>
+            <div id="tableOfContents">
+                <p id="indexPage1">目次・・・・・・・・・・・・・・・・・１ページ</p>
+                <p id="indexPage2">序章・・・・・・・・・・・・・・・・・２ページ</p>
+                <p id="indexPage3">物語の登場人物・・・・・・・・・・・・３ページ</p>
+                <p id="indexPage4">物語の進め方（遊び方）・・・・・・・・４ページ</p>
+                <p id="indexPage5">物語をはじめる（ゲームスタート）・・・５ページ</p>
+                <p id="indexPage6">奥付・・・・・・・・・・・・・・・・・６ページ</p>
+            </div>
+            <!-- ポップアップウィンドウ -->
+            <div id="popWindow1Index" class="popWindow" style="display:none">
+                <div id="firstPlay1Index">
+                    <p id="firstPlayText1Index" class="firstPlayText">
+                        また、目次の文字をクリックするとそのページにジャンプします。<br>
+                        ポップ画面を消した後、右下をクリック（タップ）するとページがめくれます。</p>
+                    <p id="firstPlayClickButton1Index" class="firstPlayTextClickButton">この文字をクリック（タップ）するとポップ画面が消えます</p>
+                </div>
+            </div>
+        </div>
+        <!-- 表紙 -->
+        <div id="page0Cover" class="pageAll" style="visibility:visible">
+            <img src="/cover.2f66c4e1.png" alt="表紙の画像です">
+        </div>
+        <!-- ポップアップウィンドウ -->
+        <div id="popWindow0Cover" class="popWindow" style="display:none">
+            <div id="firstPlay0Cover" style="display:none">
+                <p id="firstPlayText0Cover" class="firstPlayText">
+                    このサイトは、画面縦：768ｐｘ以上、画面横：576ｐｘ以上向けのサイトで、パソコン、タブレット向けのサイトになります、スマホでの利用は難しいです。
+                    また、このサイトでは物語を進めていくとローカルストレージを使うので、物語を削除する場合は、<br>
+                    （物語をはじめる）＝＞ゲームデータを削除)でゲームデータ削除してください。<br>
+                    ポップ画面を消した後、右下をクリック（タップ）するとページがめくれます。</p>
+                <p id="firstPlayText0CoverClickButton" class="firstPlayTextClickButton">この文字をクリック（タップ）するとポップ画面が消えます</p>
+            </div>
+            <div id="alreadyPlay0Cover" style="display:none">
+                <p>既に物語を進めていますが、<br>物語をはじめる（ゲームスタート）のページに飛びますか？</p>
+                <div id="alreadyPlayTextBlock">
+                    <p id="alreadyPlayYes" class="alreadyPlayText">はい</p>
+                    <p id="alreadyPlayNo" class="alreadyPlayText">いいえ</p>
+                    <p id="alreadyPlayGamedataDelete" class="alreadyPlayText">ゲームデータを削除してウィンドウを閉じる</p>
+                </div>
+            </div>
+        </div>
+        <!-- ここにページを入れて表示 -->
+    </div>
+    <div id="removeDiv"></div>
+</body>
+
+</html>
